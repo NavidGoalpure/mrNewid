@@ -5,10 +5,10 @@ module.exports = {
   siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteLanguage: "fa",
 
   /* author */
-  authorName: "greg lobinski",
+  authorName: "نوید گل پور",
   authorTwitterAccount: "greglobinski",
 
   /* info */
@@ -32,7 +32,7 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
+    { name: "github", url: "https://github.com/navidgoalpure" },
     { name: "twitter", url: "https://twitter.com/greglobinski" },
     { name: "facebook", url: "http://facebook.com/greglobinski" }
   ]
