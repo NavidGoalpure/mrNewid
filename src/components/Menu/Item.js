@@ -80,7 +80,7 @@ const Item = props => {
           }
 
           .hiddenItem {
-            text-align: left;
+            text-align: right;
             padding: ${theme.space.xs};
 
             & :global(a.inHiddenItem) {

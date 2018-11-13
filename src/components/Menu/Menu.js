@@ -234,39 +234,21 @@ class Menu extends React.Component {
               background: ${theme.background.color.primary};
               border: 1px solid ${theme.line.color};
               top: 48px;
-              right: ${theme.space.s};
+              // right: ${theme.space.s};
               display: flex;
               flex-direction: column;
               justify-content: flex-start;
               padding: ${theme.space.m};
               border-radius: ${theme.size.radius.small};
-              border-top-right-radius: 0;
 
 
-              &:after {
-                content: "";
-                background: ${theme.background.color.primary};
-                z-index: 10;
-                top: -10px;
-                right: -1px;
-                width: 44px;
-                height: 10px;
-                position: absolute;
-                border-left: 1px solid ${theme.line.color};
-                border-right: 1px solid ${theme.line.color};
-              }
 
               :global(.homepage):not(.fixed) & {
                 border: 1px solid transparent;
                 background: color(white alpha(-10%));
                 top: 50px;
 
-                &:after {
-                  top: -11px;
-                  border-left: 1px solid transparent;
-                  border-right: 1px solid transparent;
-                  background: color(white alpha(-10%));
-                }
+
               }
 
               :global(.fixed) & {

@@ -141,6 +141,7 @@ class Layout extends React.Component {
                         padding: 0;
                       }
                       body {
+                        direction: rtl;
                         font-family: ${this.state.font400loaded
                           ? "'Open Sans', sans-serif;"
                           : "Arial, sans-serif;"};

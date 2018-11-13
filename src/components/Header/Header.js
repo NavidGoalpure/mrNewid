@@ -209,7 +209,7 @@ class Header extends React.Component {
             }
 
             .header :global(a.logoType) {
-              text-align: left;
+              text-align: right;
               flex-direction: row;
               flex-shrink: 0;
               width: auto;
