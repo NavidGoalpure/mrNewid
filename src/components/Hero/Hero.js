@@ -10,7 +10,7 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          `Decentralization is comming...`
+          Decentralization is comming...
         </h1>
         <h1>
           خوش به حال روزگار
