@@ -3,7 +3,7 @@ title: Other GatsbyJS starters
 menuTitle: Starters
 ---
 
-**HeroBlog** is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
+**MrNewid** is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
 
 ### PersonalBlog
 
