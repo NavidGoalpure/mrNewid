@@ -124,11 +124,14 @@ class Header extends React.Component {
               height: 60px;
               width: 60px;
             }
-
             img {
               width: 100%;
             }
           }
+
+          .type {
+            margin-right: 0.5em;
+            }
 
           .sensor {
             display: block;
