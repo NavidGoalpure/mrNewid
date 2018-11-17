@@ -43,7 +43,7 @@ const Hero = props => {
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
           line-height: ${theme.hero.h1.lineHeight};
-          text-remove-gap: both 0 "Open Sans";
+          text-remove-gap: both 0 "Vazir";
 
           :global(strong) {
             position: relative;

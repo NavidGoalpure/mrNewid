@@ -27,8 +27,8 @@ class Layout extends React.Component {
     };
 
     if (typeof window !== `undefined`) {
-      this.loadFont("font400", "Open Sans", 400);
-      this.loadFont("font600", "Open Sans", 600);
+      this.loadFont("font400", "Vazir", 400);
+      this.loadFont("font600", "Vazir", 600);
     }
   }
 
@@ -127,6 +127,32 @@ class Layout extends React.Component {
                     <style jsx>{`
                       main {
                         min-height: 80vh;
+                        @font-face {
+                          font-family: Vazir;
+                          src: url('Vazir.eot');
+                          src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+                               url('Vazir.woff') format('woff'),
+                               url('Vazir.ttf') format('truetype');
+                          font-weight: normal;
+                        }
+                              
+                        @font-face {
+                          font-family: Vazir;
+                          src: url('Vazir-Bold.eot');
+                          src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+                               url('Vazir-Bold.woff') format('woff'),
+                               url('Vazir-Bold.ttf') format('truetype');
+                          font-weight: bold;
+                        }
+                        
+                        @font-face {
+                          font-family: Vazir;
+                          src: url('Vazir-Light.eot');
+                          src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+                               url('Vazir-Light.woff') format('woff'),
+                               url('Vazir-Light.ttf') format('truetype');
+                          font-weight: 300;
+                        }
                       }
                     `}</style>
                     <style jsx global>{`
@@ -143,8 +169,8 @@ class Layout extends React.Component {
                       body {
                         direction: rtl;
                         font-family: ${this.state.font400loaded
-                          ? "'Open Sans', sans-serif;"
-                          : "Arial, sans-serif;"};
+                          ? "'Vazir', sans-serif;"
+                          : "Vazir, sans-serif;"};
                       }
                       h1,
                       h2,
