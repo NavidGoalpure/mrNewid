@@ -1,17 +1,23 @@
 ---
-title: I like nonsense, it wakes up the brain cells
-category: "testimonies"
+title: کارگران عالم، به بلاکچین بپیوندید!
+category: "تمرکززدایی"
 cover: photo-1465070845512-2b2dbdc6df66.jpg
-author: greg lobinski
+author: نوید گل پور
 ---
 
-:100: Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+
+عصر اعتماد
+----------
+در بیشتر تاریخ بشر، معاملات انسان‌ها به صورت نفر به نفر (peer to peer) انجام می‌شد. فعالیت‌هایی مثل پول قرض دادن، امانت دادن اجناس و حتی در اختیار گذاشتن مهارت ها فقط زمانی اتفاق می‌افتاد که دوستی و اعتماد بین افراد وجود داشت. به عبارت دیگه آدما وقتی اجناس یا مهارت هاشون رو به هم میدادن که همدیگه رو از قبل میشناختن و باهم در تماس بودن.
 
 ![unsplash.com](./photo-1465070845512-2b2dbdc6df66.jpg)
 
-### Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.
+تولید انبوه
+-----------
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros `bibendum cursus` nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
+With this markup you can obtain *simple emhpasis* (usually rendered in italic text), **strong emphasis** (usually rendered in bold text), `source code` text (usually rendered in monospaced text), or ~~strikethrough~~ text (usually rendered with a line through text).
+
+ بعد از انقلاب صنعتی و به وجود آمدن کمپانی ها، معامله بر مبنای شناخت به مرور کمرنگ تر شد. در طی دو قرن گذشته  `تولید و توزیع انبوه` بود که اقتصاد ما رو شکل می‌داد. چشم انداز این اقتصاد،‌ جهانی پر از فراوانی منابع اقتصادی،‌ فکری و فیزیکی بود که توسط تولیدکننده‌ها و سرویس دهنده های «متمرکز» ایجاد می‌شد. این واحد های اقتصادی متمرکز می‌تونستن مثل بانک ها و دولت ها صاحبان پول باشند یا مثل کارخانجات صاحبان کالاهای مصرفی باشن یا مثل هتل‌ها صاحبان کالاهای خدماتی.
 
 ```javascript
 import { createMuiTheme } from "material-ui/styles";
