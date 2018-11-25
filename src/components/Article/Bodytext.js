@@ -57,6 +57,7 @@ const Bodytext = props => {
           }
           :global(code.language-text) {
             background: ${theme.color.neutral.gray.c};
+            font-family: inherit;
             text-shadow: none;
             color: inherit;
             padding: 0.1em 0.3em 0.2em;

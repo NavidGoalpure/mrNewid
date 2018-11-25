@@ -9,6 +9,7 @@ import Post from "../components/Post";
 import { ThemeContext } from "../layouts";
 
 const PostTemplate = props => {
+  console.log("props=",props);
   const {
     data: {
       post,
