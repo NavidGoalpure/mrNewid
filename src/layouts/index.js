@@ -156,6 +156,7 @@ class Layout extends React.Component {
                       }
                     `}</style>
                     <style jsx global>{`
+                    
                       html {
                         box-sizing: border-box;
                       }
@@ -171,6 +172,33 @@ class Layout extends React.Component {
                         font-family: ${this.state.font400loaded
                           ? "'Vazir', sans-serif;"
                           : "Vazir, sans-serif;"};
+                      }
+                      blockquote {
+                        background: #f9f9f9;
+                        border-right: 10px solid #ccc;
+                        margin: 1.5em 10px;
+                        padding: 0.5em 10px;
+                      }
+                      blockquote:before {
+                        color: #ccc;
+                        content: open-quote;
+                        font-size: 2em;
+                        line-height: 0.1em;
+                        margin-right: 0.25em;
+                        vertical-align: -0.2em;
+                        quotes: "\\201C""\\201D""\\2018""\\2019";
+                      }
+                      blockquote:after {
+                        color: #ccc;
+                        content: close-quote;
+                        font-size: 2em;
+                        line-height: 0.1em;
+                        vertical-align: -0.2em;
+                        quotes: "\\201C""\\201D""\\2018""\\2019";
+
+                      }
+                      blockquote p {
+                        display: inline;
                       }
                       h1,
                       h2,
