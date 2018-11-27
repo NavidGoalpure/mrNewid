@@ -12,7 +12,7 @@ module.exports = {
   authorTwitterAccount: "NavidGoalpure",
 
   /* info */
-  headerTitle: "نوید گل پور",
+  headerTitle: "Mr.Newid",
   headerSubTitle: "محقق بلاکچین و اینترنت غیرمتمرکز",
 
   /* manifest.json */
