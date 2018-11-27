@@ -23,11 +23,11 @@ class Menu extends React.Component {
     }));
 
     this.items = [
-      { to: "/", label: "Home", icon: FaHome },
-      { to: "/category/", label: "Categories", icon: FaTag },
-      { to: "/search/", label: "Search", icon: FaSearch },
+      { to: "/", label: "خانه", icon: FaHome },
+      { to: "/category/", label: "دسته بندی", icon: FaTag },
+      { to: "/search/", label: "جستجو", icon: FaSearch },
       ...pages,
-      { to: "/contact/", label: "Contact", icon: FaEnvelope }
+      { to: "/contact/", label: "تماس با ما", icon: FaEnvelope }
     ];
 
     this.renderedItems = []; // will contain references to rendered DOM elements of menu
@@ -147,7 +147,7 @@ class Menu extends React.Component {
         <nav className={`menu ${open ? "open" : ""}`} rel="js-menu">
           <ul className="itemList" ref={this.itemList}>
             {this.items.map(item => (
-              <Item item={item} key={item.label} icon={item.icon} theme={theme} />
+              <Item className="item" item={item} key={item.label} icon={item.icon} theme={theme} />
             ))}
           </ul>
           {this.state.hiddenItems.length > 0 && <Expand onClick={this.toggleMenu} theme={theme} />}
@@ -188,7 +188,6 @@ class Menu extends React.Component {
             position: relative;
             width: 100%;
           }
-
           @below desktop {
             .menu {
               &::after {

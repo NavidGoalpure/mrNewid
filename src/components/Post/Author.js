@@ -43,6 +43,7 @@ const Author = props => {
         .note {
           font-size: 0.9em;
           line-height: 1.6;
+          padding: 0.5em 0.5em 0 0;
         }
         @from-width tablet {
           .author {

@@ -5,11 +5,13 @@ import {
   GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
+  TelegramShareButton,
   FacebookShareCount,
   GooglePlusShareCount,
   LinkedinShareCount,
   FacebookIcon,
   TwitterIcon,
+  TelegramIcon,
   GooglePlusIcon,
   LinkedinIcon
 } from "react-share";
@@ -56,7 +58,8 @@ const PostShare = props => {
               {count => <div className="share-count">{filter(count)}</div>}
             </GooglePlusShareCount>
           </GooglePlusShareButton>
-          <FacebookShareButton
+          {/* <FacebookShareButton
+            disabled={true}
             url={url}
             quote={`${title} - ${excerpt}`}
             additionalProps={{
@@ -67,7 +70,8 @@ const PostShare = props => {
             <FacebookShareCount url={url}>
               {count => <div className="share-count">{filter(count)}</div>}
             </FacebookShareCount>
-          </FacebookShareButton>
+          </FacebookShareButton> */}
+
           <LinkedinShareButton
             url={url}
             title={title}
@@ -81,6 +85,15 @@ const PostShare = props => {
               {count => <div className="share-count">{filter(count)}</div>}
             </LinkedinShareCount>
           </LinkedinShareButton>
+          <TelegramShareButton
+            url={url}
+            title={title}
+            additionalProps={{
+              "aria-label": "Telegram share"
+            }}
+          >
+          <TelegramIcon round size={iconSize} />
+          </TelegramShareButton>
         </div>
       </div>
 

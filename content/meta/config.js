@@ -1,23 +1,23 @@
 module.exports = {
-  siteTitle: "MrNewid - a GatsbyJS starter", // <title>
-  shortSiteTitle: "MrNewid - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "MrNewid is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "MrNewid -خوش به حال روزگار", // <title>
+  shortSiteTitle: "خوش به حال روزگار", // <title> ending for posts and pages
+  siteDescription: "decentralization is coming - خوش به حال روزگار",
+  siteUrl: "https://MrNewId.ir",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "fa",
 
   /* author */
   authorName: "نوید گل پور",
-  authorTwitterAccount: "greglobinski",
+  authorTwitterAccount: "NavidGoalpure",
 
   /* info */
   headerTitle: "نوید گل پور",
   headerSubTitle: "محقق بلاکچین و اینترنت غیرمتمرکز",
 
   /* manifest.json */
-  manifestName: "MrNewid - a GatsbyJS starter",
-  manifestShortName: "MrNewid", // max 12 characters
+  manifestName: "MrNewid - خوش به حال روزگار",
+  manifestShortName: "MrNewId", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -33,7 +33,7 @@ module.exports = {
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/navidgoalpure" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "twitter", url: "https://twitter.com/NavidGoalpure" },
+    { name: "telegram", url: "http://t.me/GreatStallman" }
   ]
 };

@@ -46,6 +46,7 @@ const Item = props => {
         @from-width desktop {
           .item {
             :global(a) {
+ 
               color: ${theme.text.color.primary};
               padding: ${theme.space.inset.s};
               transition: all ${theme.time.duration.default};
@@ -62,6 +63,7 @@ const Item = props => {
             }
 
             :global(svg) {
+              margin-left: 0.3em;
               transition: all ${theme.time.duration.default};
             }
 
