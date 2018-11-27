@@ -23,15 +23,15 @@ const NextPrev = props => {
       <div className="links">
         {nextSlug && (
           <Link to={nextSlug}>
-            <FaArrowRight />
             <h4>
               {nextTitle} <time>{nextPrefix} </time>
             </h4>
+            <FaArrowLeft />
           </Link>
         )}
         {prevSlug && (
           <Link to={prevSlug}>
-            <FaArrowLeft />
+            <FaArrowRight />
             <h4>
               {prevTitle} <time>{prevPrefix}</time>
             </h4>
