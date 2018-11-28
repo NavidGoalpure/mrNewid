@@ -9,12 +9,14 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>
-          Decentralization is comming...
+      <div className="lasvegas">
+        <h1  className="languageEn">
+        <span className="lasvegas_span">Web3</span> is comming...<br/>
         </h1>
-        <h1>
-          خوش به حال روزگار
+        <h1 className="languageFa">
+          خوش  <span className="lasvegas_span lasvegas_span_delay">به </span>حال روزگار
         </h1>
+      </div>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>
@@ -22,7 +24,10 @@ const Hero = props => {
 
       {/* --- STYLES --- */}
       <style jsx>{`
+      @import url(//fonts.googleapis.com/css?family=Pacifico);
+      @import url('https://fonts.googleapis.com/css?family=Lalezar');
         .hero {
+          direction: ltr;
           align-items: center;
           background: ${theme.hero.background};
           background-image: url(${backgrounds.mobile});
@@ -36,6 +41,81 @@ const Hero = props => {
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
         }
+        .lasvegas {
+            display: contents;
+            font-size:1em;
+            border: none;
+            color: rgba(255,255,255,0.6);
+            text-align: center;
+            text-shadow: 
+              1px 5px 4px rgba(0,0,0,.3), 
+              0 0 2px rgba(255,255,255,1), 
+              0 0 10px rgba(255,255,255,1), 
+              0 0 20px rgba(255,255,255,1), 
+              0 0 30px rgba(255,255,255,1), 
+              0 0 40px #096dd9, 
+              0 0 70px #096dd9, 
+              0 0 80px #096dd9,
+              0 0 100px #096dd9;
+          }
+          .languageEn {
+            font-family: 'Pacifico', cursive;
+          }
+          .languageFa {
+            font-family: 'Lalezar', 'vazir';
+          }
+          .lasvegas_span{
+            animation: blink .3s infinite alternate;
+          }
+
+          .lasvegas_span_delay{
+            animation-duration:6s;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            transition-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
+          }
+
+
+          @keyframes blink {
+            0%   {}
+            50%  {}
+            60%{
+              text-shadow: 
+                0 0 2px rgba(255, 255, 255, .1), 
+                0 0 10px rgba(255, 255, 255, .4);
+              
+              text-stroke: 2px rgba(255,255,255,0.05);
+            }
+            70%{
+              text-shadow: 
+                0 0 2px rgba(255,255,255,1), 
+                0 0 10px rgba(255,255,255,1), 
+                0 0 20px rgba(255,255,255,1), 
+                0 0 30px rgba(255,255,255,1), 
+                0 0 40px #096dd9, 
+                0 0 70px #096dd9, 
+                0 0 80px #096dd9,
+                0 0 100px #096dd9;
+            }
+            80%{
+              text-shadow: 
+                0 0 2px rgba(255, 255, 255, .1), 
+                0 0 10px rgba(255, 255, 255, .4);
+              
+              text-stroke: 2px rgba(255,255,255,0.05);
+            }
+            100% { 
+              text-shadow: 
+                0 0 2px rgba(255,255,255,1), 
+                0 0 10px rgba(255,255,255,1), 
+                0 0 20px rgba(255,255,255,1), 
+                0 0 30px rgba(255,255,255,1), 
+                0 0 40px #096dd9, 
+                0 0 70px #096dd9, 
+                0 0 80px #096dd9,
+                0 0 100px #096dd9;
+            }
+          }
 
         h1 {
           text-align: center;
