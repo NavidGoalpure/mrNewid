@@ -11,10 +11,11 @@ const Hero = props => {
       <section className="hero">
       <div className="lasvegas">
         <h1  className="languageEn">
-        <span className="lasvegas_span">Web3</span> is comming...<br/>
+        <span className="blink2">Web3 is comming...</span> <br/>
         </h1>
         <h1 className="languageFa">
-          خوش  <span className="lasvegas_span lasvegas_span_delay">به </span>حال روزگار
+        <span className="blink21"> خوش </span>
+        به   <span className="blink21">حال </span>روزگار
         </h1>
       </div>
         <button onClick={scrollToContent} aria-label="scroll">
@@ -47,36 +48,76 @@ const Hero = props => {
             border: none;
             color: rgba(255,255,255,0.6);
             text-align: center;
-            text-shadow: 
-              1px 5px 4px rgba(0,0,0,.3), 
-              0 0 2px rgba(255,255,255,1), 
-              0 0 10px rgba(255,255,255,1), 
-              0 0 20px rgba(255,255,255,1), 
-              0 0 30px rgba(255,255,255,1), 
-              0 0 40px #096dd9, 
-              0 0 70px #096dd9, 
-              0 0 80px #096dd9,
-              0 0 100px #096dd9;
+           
           }
           .languageEn {
             font-family: 'Pacifico', cursive;
+            text-shadow: 
+            1px 5px 4px rgba(0,0,0,.3), 
+            0 0 2px rgba(255,255,255,1), 
+            0 0 10px rgba(255,255,255,1), 
+            0 0 20px rgba(255,255,255,1), 
+            0 0 30px rgba(255,255,255,1), 
+            0 0 40px #096dd9, 
+            0 0 70px #096dd9, 
+            0 0 80px #096dd9,
+            0 0 100px #096dd9;
           }
           .languageFa {
             font-family: 'Lalezar', 'vazir';
+            color: #fee;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
           }
-          .lasvegas_span{
-            animation: blink .3s infinite alternate;
+          .blink1{
+            animation: blink1 1.9s infinite alternate;
           }
-
+          .blink2{
+            
+            animation: blink2 linear infinite 2s;
+          }
           .lasvegas_span_delay{
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+
             animation-duration:6s;
             animation-delay: 2s;
             animation-direction: alternate;
             transition-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
           }
 
-
-          @keyframes blink {
+          @keyframes blink2 {
+            78% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            79%{
+               color: #333;
+            }
+            80% {
+              
+              text-shadow: none;
+            }
+            81% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            82% {
+              color: #333;
+              text-shadow: none;
+            }
+            83% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            92% {
+              color: #333;
+              text-shadow: none;
+            }
+            92.5% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+          }
+          @keyframes blink1 {
             0%   {}
             50%  {}
             60%{
