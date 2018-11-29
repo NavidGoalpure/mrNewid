@@ -14,7 +14,7 @@ const Item = props => {
           onClick={onClick}
           data-slug={to}
         >
-          {Icon && <Icon />} {label}
+          {Icon && <Icon />} <a className="label"> {label}</a>
         </Link>
       </li>
 
@@ -22,7 +22,6 @@ const Item = props => {
       <style jsx>{`
         .item,
         .showItem {
-          background: transparent;
           transition: all ${theme.time.duration.default};
           display: flex;
           align-items: center;
@@ -54,11 +53,17 @@ const Item = props => {
 
             :global(.homepage):not(.fixed) & :global(a) {
               color: ${theme.color.neutral.white};
+              &:hover {
+                text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.3), 0 0 2px rgba(255, 255, 255, 1),
+                  0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+                  0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 1), 0 0 70px #096dd9,
+                  0 0 80px rgba(255, 255, 255, 1), 0 0 100px rgba(255, 255, 255, 1);
+              }
             }
 
             :global(a:hover) {
               color: ${theme.color.brand.primary};
-              background: color(white alpha(-60%));
+              background: "color(white alpha(-60%))";
             }
 
             :global(svg) {
@@ -67,7 +72,7 @@ const Item = props => {
             }
 
             &:hover :global(svg) {
-              fill: ${theme.color.brand.primary};
+              fill: red;
               opacity: 1;
 
               :global(.hero) & :global(svg) {

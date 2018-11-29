@@ -16,10 +16,8 @@ const Hero = props => {
           <h1 className="languageEn">
             <span className="blink2">Web3</span> is comming... <br />
           </h1>
-          <h1 className="languageFa">
-            <span> خوش </span>
-            به <span>حال </span>روزگار
-          </h1>
+          <br />
+          <h1 className="languageFa">تو را من چشم در راهم</h1>
         </div>
         <h1 className="arrow" onClick={scrollToContent} aria-label="scroll">
           &#8681;
@@ -30,6 +28,10 @@ const Hero = props => {
       <style jsx>{`
         @import url(//fonts.googleapis.com/css?family=Pacifico);
         @import url("https://fonts.googleapis.com/css?family=Lalezar");
+        @font-face {
+          font-family: maneli;
+          src: url(maneli.woff);
+        }
         .hero {
           display: flex;
           flex-flow: column nowrap;
@@ -73,7 +75,7 @@ const Hero = props => {
             0 0 100px #096dd9;
         }
         .languageFa {
-          font-family: "Lalezar", "vazir";
+          font-family: "lalezar", "lalezar";
           color: #fee;
           text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
             0 10px 3px #000;
