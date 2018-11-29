@@ -92,7 +92,7 @@ const PostShare = props => {
               "aria-label": "Telegram share"
             }}
           >
-          <TelegramIcon round size={iconSize} />
+            <TelegramIcon round size={iconSize} />
           </TelegramShareButton>
         </div>
       </div>

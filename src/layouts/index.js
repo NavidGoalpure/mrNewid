@@ -129,34 +129,32 @@ class Layout extends React.Component {
                         min-height: 80vh;
                         @font-face {
                           font-family: Vazir;
-                          src: url('Vazir.eot');
-                          src: url('Vazir.eot?#iefix') format('embedded-opentype'),
-                               url('Vazir.woff') format('woff'),
-                               url('Vazir.ttf') format('truetype');
+                          src: url("Vazir.eot");
+                          src: url("Vazir.eot?#iefix") format("embedded-opentype"),
+                            url("Vazir.woff") format("woff"), url("Vazir.ttf") format("truetype");
                           font-weight: normal;
                         }
-                              
+
                         @font-face {
                           font-family: Vazir;
-                          src: url('Vazir-Bold.eot');
-                          src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-                               url('Vazir-Bold.woff') format('woff'),
-                               url('Vazir-Bold.ttf') format('truetype');
+                          src: url("Vazir-Bold.eot");
+                          src: url("Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+                            url("Vazir-Bold.woff") format("woff"),
+                            url("Vazir-Bold.ttf") format("truetype");
                           font-weight: bold;
                         }
-                        
+
                         @font-face {
                           font-family: Vazir;
-                          src: url('Vazir-Light.eot');
-                          src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
-                               url('Vazir-Light.woff') format('woff'),
-                               url('Vazir-Light.ttf') format('truetype');
+                          src: url("Vazir-Light.eot");
+                          src: url("Vazir-Light.eot?#iefix") format("embedded-opentype"),
+                            url("Vazir-Light.woff") format("woff"),
+                            url("Vazir-Light.ttf") format("truetype");
                           font-weight: 300;
                         }
                       }
                     `}</style>
                     <style jsx global>{`
-                    
                       html {
                         box-sizing: border-box;
                       }
@@ -186,7 +184,7 @@ class Layout extends React.Component {
                         line-height: 0.1em;
                         margin-right: 0.25em;
                         vertical-align: -0.2em;
-                        quotes: "\\201C""\\201D""\\2018""\\2019";
+                        quotes: "\\201C" "\\201D" "\\2018" "\\2019";
                       }
                       blockquote:after {
                         color: #ccc;
@@ -194,8 +192,7 @@ class Layout extends React.Component {
                         font-size: 2em;
                         line-height: 0.1em;
                         vertical-align: -0.2em;
-                        quotes: "\\201C""\\201D""\\2018""\\2019";
-
+                        quotes: "\\201C" "\\201D" "\\2018" "\\2019";
                       }
                       blockquote p {
                         display: inline;

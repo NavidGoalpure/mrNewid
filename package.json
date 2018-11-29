@@ -65,7 +65,8 @@
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
     "stylelint": "stylelint src/**/*.js",
-    "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
+    "generate-app-icons": "sh ./scripts/generate-app-icons.sh",
+    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' "
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
@@ -99,6 +100,9 @@
     "postcss-utilities": "^0.8.0",
     "precss": "^3.1.2",
     "prettier": "^1.13.7",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1",
+    "prettier-stylelint": "^0.4.2",
     "serve": "^9.2.0",
     "sharp-cli": "^1.7.0",
     "stylelint": "^9.3.0",

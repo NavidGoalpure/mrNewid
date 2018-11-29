@@ -46,7 +46,6 @@ const Item = props => {
         @from-width desktop {
           .item {
             :global(a) {
- 
               color: ${theme.text.color.primary};
               padding: ${theme.space.inset.s};
               transition: all ${theme.time.duration.default};

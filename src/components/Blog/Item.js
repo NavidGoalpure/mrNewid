@@ -32,7 +32,7 @@ const Item = props => {
             <Img fluid={fluid} />
           </div>
           <h1>
-            <FaArrowLeft className="arrow" /> {title} 
+            <FaArrowLeft className="arrow" /> {title}
           </h1>
           <p className="meta">
             <span>
