@@ -1,19 +1,16 @@
 ---
-title: Other GatsbyJS starters
+title: تقدیم به رادیوگیک
 menuTitle: رادیوگیک
 ---
+![رادیوگیک](radiojadi.jpg)
+## تقدیم نامه
 
-**MrNewid** is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
+تقدیم کردن یک وبلاگ ممکنه ایده عجیبی به نظر بیاد اما به این فکر کنین که ممکن بود همین من، تصمیم بگیرم همین مطالب رو توی یک کتاب منتشر کنم. اونوقت می‌تونستم کتابم رو به هرکسی که بخوام تقدیم کنم و  تنها فرقش درختایی بودن که قطع می‌شدن و خواننده‌هایی که باید بابت قطع شدن اون درخت‌ها پول هم پرداخت می‌کردن. 
+پس بزارین اجازه داشته باشم وبلاگم رو تقدیم کنم تا هم درختی قطع نشه،‌ هم شما مجبور نشید بابت خوندن همین مطالب پول پرداخت کنین.
 
-### PersonalBlog
+و اگه بخوام این وبلاگ رو تقدیم کنم،‌ بدون شک اون رو به «رادیو گیک» تقدیم می‌کنم که صدای نرم افزارهای آزاد توی ایرانه.
+>رادیوگیک یک حرکت‌گاه رادیوییه و مخاطبش کسانین که می‌خوان در تقاطع تکنولوژی و جامعه بشینن و به ارزش‌های انسانی فکر کنن
+>
 
-![PersonalBlog](./gatsby-starter-personal-blog.png)
-
-A ready to use, easy to customize Gatsby starter with 'like app' layout transitions. [Demo](https://gatsby-starter-personal-blog.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-personal-blog)
-
-### SimpleLanding
-
-![SimpleLanding](./gatsby-starter-simple-landing.png)
-
-As the name says, it is a simple landing page starter.
-[Demo](https://gatsby-starter-simple-landing.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-simple-landing)
+سال‌ها پیش این رادیو گیک بود که من رو به صورت جدی با موضوع اخلاقیات تکنولوژی آشنا کرد. برای اندیشیدن درباره تکنولوژی ها و تأثیرات اون‌ها در جامعه بهم چهارچوب داد و در نهایت تشویقم کرد تا به دنیای زیبای «نرم افزارهای آزاد» بپیوندم. رادیو گیک نه مثل استالمن بزرگ خیلی «دوره»،‌ نه مثل جادی خیلی «چندمنظوره»، نه مثل خیلی چیزهای دیگه «صرفا جهت سرگرمی».
+پس این وبلاگ رو با تمام محتویاتش به « رادیوگیک » تقدیم می‌کنم، به امیدی که باشه و بازم برامون محتوای جذاب بسازه.

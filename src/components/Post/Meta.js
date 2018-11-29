@@ -12,15 +12,17 @@ const Meta = props => {
   return (
     <p className="meta">
       <span>
-        <FaCalendar size={18} /> {prefix}
+        {prefix}
+        <FaCalendar size={18} />
       </span>
       <span>
-        <FaUser size={18} /> {authorName}
+        {authorName}
+        <FaUser size={18} />
       </span>
       {category && (
         <span>
-          <FaTag size={18} />
           <Link to={`/category/${category.split(" ").join("-")}`}>{category}</Link>
+          <FaTag size={18} />
         </span>
       )}
 
