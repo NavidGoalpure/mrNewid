@@ -31,26 +31,32 @@ const Hero = props => {
         @import url(//fonts.googleapis.com/css?family=Pacifico);
         @import url("https://fonts.googleapis.com/css?family=Lalezar");
         .hero {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
           direction: ltr;
           align-items: center;
           background: ${theme.hero.background};
           background-image: url(${backgrounds.mobile});
           background-size: cover;
           color: ${theme.text.color.primary.inverse};
-          display: flex;
-          flex-flow: column nowrap;
-          justify-content: center;
           min-height: 100vh;
           height: 100px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
         }
         .arrow {
+          position: absolute;
+          bottom: 1em;
           border: none;
           color: rgba(255, 255, 255, 0.6);
           text-align: center;
           text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
             0 10px 3px #000;
+          animation: blink2 linear infinite 4s;
+          &:hover {
+            animation: none;
+          }
         }
         .lasvegas {
           display: contents;
