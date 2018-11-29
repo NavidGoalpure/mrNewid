@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "MrNewid -خوش به حال روزگار", // <title>
-  shortSiteTitle: "خوش به حال روزگار", // <title> ending for posts and pages
-  siteDescription: "decentralization is coming - خوش به حال روزگار",
+  siteTitle: "MrNewid -تو را من چشم در راهم", // <title>
+  shortSiteTitle: "تو را من چشم در راهم", // <title> ending for posts and pages
+  siteDescription: "decentralization is coming - تو را من چشم در راهم",
   siteUrl: "https://MrNewId.ir",
   // pathPrefix: "",
   siteImage: "preview.jpg",
@@ -16,7 +16,7 @@ module.exports = {
   headerSubTitle: "محقق بلاکچین و اینترنت غیرمتمرکز",
 
   /* manifest.json */
-  manifestName: "MrNewid - خوش به حال روزگار",
+  manifestName: "MrNewid - تو را من چشم در راهم",
   manifestShortName: "MrNewId", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",

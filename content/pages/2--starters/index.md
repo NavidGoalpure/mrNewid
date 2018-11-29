@@ -1,6 +1,6 @@
 ---
 title: Other GatsbyJS starters
-menuTitle: Starters
+menuTitle: رادیوگیک
 ---
 
 **MrNewid** is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.

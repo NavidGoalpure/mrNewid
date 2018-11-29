@@ -1,5 +1,5 @@
 ---
-title: About
+title: Bloock
 ---
 
 This is a demo site of the [MrNewid](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
