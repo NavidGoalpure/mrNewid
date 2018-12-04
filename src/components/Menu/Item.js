@@ -54,10 +54,8 @@ const Item = props => {
             :global(.homepage):not(.fixed) & :global(a) {
               color: ${theme.color.neutral.white};
               &:hover {
-                text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.3), 0 0 2px rgba(255, 255, 255, 1),
-                  0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
-                  0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 1), 0 0 70px #096dd9,
-                  0 0 80px rgba(255, 255, 255, 1), 0 0 100px rgba(255, 255, 255, 1);
+                text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
+                  0 0 0.1em #ff4444, 0 10px 3px #000;
               }
             }
 

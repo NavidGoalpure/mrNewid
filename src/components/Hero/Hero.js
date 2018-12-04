@@ -13,11 +13,15 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <div className="lasvegas">
-          <h1 className="languageEn">
-            <span className="blink2">Web3</span> is comming... <br />
+          <h1 className="languageEn ">
+            <span>Web3</span> is comming... <br />
           </h1>
           <br />
-          <h1 className="languageFa">تو را من چشم در راهم</h1>
+          <h1 className="languageFa">
+            تو را من
+            <spam className="blink2">چشم</spam>
+            در راهم
+          </h1>
         </div>
         <h1 className="arrow" onClick={scrollToContent} aria-label="scroll">
           &#8681;
@@ -28,10 +32,6 @@ const Hero = props => {
       <style jsx>{`
         @import url(//fonts.googleapis.com/css?family=Pacifico);
         @import url("https://fonts.googleapis.com/css?family=Lalezar");
-        @font-face {
-          font-family: maneli;
-          src: url(maneli.woff);
-        }
         .hero {
           display: flex;
           flex-flow: column nowrap;
