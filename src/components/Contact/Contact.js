@@ -13,7 +13,8 @@ import "antd/lib/form/style/index.css";
 import "antd/lib/input/style/index.css";
 import "antd/lib/button/style/index.css";
 import { ThemeContext } from "../../layouts";
-
+import { FaTelegram } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Contact = props => {
   const { getFieldDecorator } = props.form;
 
@@ -64,7 +65,7 @@ const Contact = props => {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <FormItem label="Name">
+              <FormItem label="نام">
                 {getFieldDecorator("name", {
                   rules: [
                     {
@@ -73,19 +74,19 @@ const Contact = props => {
                   ]
                 })(<Input name="name" />)}
               </FormItem>
-              <FormItem label="E-mail">
+              <FormItem label="ایمیل">
                 {getFieldDecorator("email", {
                   rules: [
                     {
                       required: true,
-                      message: "Please input your e-mail address!",
+                      message: "!آدرس ایمیل رو وارد کنین",
                       whitespace: true,
                       type: "email"
                     }
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Message">
+              <FormItem label="پیام">
                 {getFieldDecorator("message", {
                   rules: [
                     { required: true, message: "Please input your message!", whitespace: true }
@@ -96,18 +97,29 @@ const Contact = props => {
               </FormItem>
               <FormItem>
                 <Button type="primary" htmlType="submit">
-                  Submit
+                  ارسال
                 </Button>
               </FormItem>
             </Form>
-
+            <div className="iconContainer">
+              <MdEmail color="#E24744" size="3em" />
+              <FaTelegram color="#4898DE" size="2.7em" />
+            </div>
             {/* --- STYLES --- */}
             <style jsx>{`
+              .iconContainer {
+                display: flex;
+                margin-top: 3em;
+                width: 7em;
+                justify-content: space-between;
+              }
+
               .form {
                 background: transparent;
               }
               .form :global(.ant-row.ant-form-item) {
                 margin: 0 0 1em;
+                font-family: vazir;
               }
               .form :global(.ant-row.ant-form-item:last-child) {
                 margin-top: 1em;
@@ -116,8 +128,9 @@ const Contact = props => {
                 line-height: 1em;
               }
               .form :global(.ant-form-item-label) {
-                line-height: 1em;
+                line-height: 2em;
                 margin-bottom: 0.5em;
+                text-align: right;
               }
               .form :global(.ant-form-item) {
                 margin: 0;
@@ -129,6 +142,7 @@ const Contact = props => {
                 padding: 0.5em 0.6em;
               }
               .form :global(.ant-btn-primary) {
+                font-family: "vazir";
                 height: auto;
                 font-size: 1.2em;
                 padding: 0.5em 3em;
