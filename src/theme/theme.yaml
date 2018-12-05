@@ -66,7 +66,7 @@ color:
 font:
   # font options
   family:
-    initial: 'Vazir, Vazir, sans-serif'
+    initial: 'Vazir1; Vazir1; sans-serif'
     target: &font-family-target 'Vazir'
   weight:
     standard: 400

@@ -128,7 +128,7 @@ class Layout extends React.Component {
                       main {
                         min-height: 80vh;
                         @font-face {
-                          font-family: Vazir;
+                          font-family: Vazir1;
                           src: url("Vazir.eot");
                           src: url("Vazir.eot?#iefix") format("embedded-opentype"),
                             url("Vazir.woff") format("woff"), url("Vazir.ttf") format("truetype");
@@ -136,7 +136,7 @@ class Layout extends React.Component {
                         }
 
                         @font-face {
-                          font-family: Vazir;
+                          font-family: Vazir1;
                           src: url("Vazir-Bold.eot");
                           src: url("Vazir-Bold.eot?#iefix") format("embedded-opentype"),
                             url("Vazir-Bold.woff") format("woff"),
@@ -145,7 +145,7 @@ class Layout extends React.Component {
                         }
 
                         @font-face {
-                          font-family: Vazir;
+                          font-family: Vazir1;
                           src: url("Vazir-Light.eot");
                           src: url("Vazir-Light.eot?#iefix") format("embedded-opentype"),
                             url("Vazir-Light.woff") format("woff"),
@@ -169,7 +169,7 @@ class Layout extends React.Component {
                         direction: rtl;
                         font-family: ${this.state.font400loaded
                           ? "'Vazir', sans-serif;"
-                          : "Vazir, sans-serif;"};
+                          : "Vazir1; sans-serif;"};
                       }
                       blockquote {
                         background: #f9f9f9;

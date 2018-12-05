@@ -119,7 +119,7 @@ const Contact = props => {
               }
               .form :global(.ant-row.ant-form-item) {
                 margin: 0 0 1em;
-                font-family: vazir;
+                font-family: Vazir1;
               }
               .form :global(.ant-row.ant-form-item:last-child) {
                 margin-top: 1em;
