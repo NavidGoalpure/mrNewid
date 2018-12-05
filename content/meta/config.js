@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: "MrNewid -تو را من چشم در راهم", // <title>
-  shortSiteTitle: "تو را من چشم در راهم", // <title> ending for posts and pages
+  siteTitle: "MrNewID", // <title>
+  shortSiteTitle: "web3 in coming", // <title> ending for posts and pages
   siteDescription: "decentralization is coming - تو را من چشم در راهم",
   siteUrl: "https://MrNewId.ir",
   // pathPrefix: "",
@@ -16,8 +16,8 @@ module.exports = {
   headerSubTitle: "محقق بلاکچین و اینترنت غیرمتمرکز",
 
   /* manifest.json */
-  manifestName: "MrNewid - تو را من چشم در راهم",
-  manifestShortName: "MrNewId", // max 12 characters
+  manifestName: "MrNewID",
+  manifestShortName: "MrNewID", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",

@@ -70,15 +70,17 @@ const Hero = props => {
         .languageEn {
           font-family: "Pacifico", cursive;
           text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.3), 0 0 2px rgba(255, 255, 255, 1),
-            0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
-            0 0 30px rgba(255, 255, 255, 1), 0 0 40px #096dd9, 0 0 70px #096dd9, 0 0 80px #096dd9,
-            0 0 100px #096dd9;
+            0 0 0px rgba(255, 255, 255, 1), 0 0 0px rgba(255, 255, 255, 1),
+            0 0 10px rgb(198, 198, 198), 0 0 40px #096dd9, 0 0 70px #096dd9, 0 0 20px #096dd9,
+            0 0 10px #096dd9;
         }
         .languageFa {
           font-family: "lalezar", "lalezar";
           color: #fee;
-          text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
-            0 10px 3px #000;
+          text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.3), 0 0 2px rgba(255, 255, 255, 1),
+            0 0 0px rgba(255, 255, 255, 1), 0 0 0px rgba(255, 255, 255, 1),
+            0 0 0px rgba(255, 255, 255, 1), 0 0 40px #ff4444, 0 0 70px #ff4444, 0 0 20px #ff4444,
+            0 0 10px #ff4444;
         }
         .blink2 {
           animation: blink2 linear infinite 2s;
@@ -123,32 +125,6 @@ const Hero = props => {
           92.5% {
             color: inherit;
             text-shadow: inherit;
-          }
-        }
-        @keyframes blink1 {
-          0% {
-          }
-          50% {
-          }
-          60% {
-            text-shadow: 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.4);
-
-            text-stroke: 2px rgba(255, 255, 255, 0.05);
-          }
-          70% {
-            text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1),
-              0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #096dd9,
-              0 0 70px #096dd9, 0 0 80px #096dd9, 0 0 100px #096dd9;
-          }
-          80% {
-            text-shadow: 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.4);
-
-            text-stroke: 2px rgba(255, 255, 255, 0.05);
-          }
-          100% {
-            text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1),
-              0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #096dd9,
-              0 0 70px #096dd9, 0 0 80px #096dd9, 0 0 100px #096dd9;
           }
         }
 
