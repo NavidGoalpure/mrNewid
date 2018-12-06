@@ -19,7 +19,7 @@ const Hero = props => {
           <br />
           <h1 className="languageFa">
             تو را من
-            <spam className="blink2">چشم</spam>
+            <spam className="blink2">&#8239;چشم&#8239;</spam>
             در راهم
           </h1>
         </div>
