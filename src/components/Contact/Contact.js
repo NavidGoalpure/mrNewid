@@ -142,7 +142,7 @@ const Contact = props => {
                 padding: 0.5em 0.6em;
               }
               .form :global(.ant-btn-primary) {
-                font-family: "vazir";
+                font-family: "Vazir1";
                 height: auto;
                 font-size: 1.2em;
                 padding: 0.5em 3em;

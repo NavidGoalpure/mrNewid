@@ -129,27 +129,31 @@ class Layout extends React.Component {
                         min-height: 80vh;
                         @font-face {
                           font-family: Vazir1;
-                          src: url("Vazir.eot");
-                          src: url("Vazir.eot?#iefix") format("embedded-opentype"),
-                            url("Vazir.woff") format("woff"), url("Vazir.ttf") format("truetype");
+                          src: url("http://localhost:8000/Vazir.eot");
+                          src: url("http://localhost:8000/Vazir.eot?#iefix")
+                              format("embedded-opentype"),
+                            url("http://localhost:8000/Vazir.woff") format("woff"),
+                            url("http://localhost:8000/Vazir.ttf") format("truetype");
                           font-weight: normal;
                         }
 
                         @font-face {
                           font-family: Vazir1;
-                          src: url("Vazir-Bold.eot");
-                          src: url("Vazir-Bold.eot?#iefix") format("embedded-opentype"),
-                            url("Vazir-Bold.woff") format("woff"),
-                            url("Vazir-Bold.ttf") format("truetype");
+                          src: url("http://localhost:8000/Vazir-Bold.eot");
+                          src: url("http://localhost:8000/Vazir-Bold.eot?#iefix")
+                              format("embedded-opentype"),
+                            url("http://localhost:8000/Vazir-Bold.woff") format("woff"),
+                            url("http://localhost:8000/Vazir-Bold.ttf") format("truetype");
                           font-weight: bold;
                         }
 
                         @font-face {
                           font-family: Vazir1;
-                          src: url("Vazir-Light.eot");
-                          src: url("Vazir-Light.eot?#iefix") format("embedded-opentype"),
-                            url("Vazir-Light.woff") format("woff"),
-                            url("Vazir-Light.ttf") format("truetype");
+                          src: url("http://localhost:8000/Vazir-Light.eot");
+                          src: url("http://localhost:8000/Vazir-Light.eot?#iefix")
+                              format("embedded-opentype"),
+                            url("http://localhost:8000/Vazir-Light.woff") format("woff"),
+                            url("http://localhost:8000/Vazir-Light.ttf") format("truetype");
                           font-weight: 300;
                         }
                       }
@@ -168,7 +172,7 @@ class Layout extends React.Component {
                       body {
                         direction: rtl;
                         font-family: ${this.state.font400loaded
-                          ? "'Vazir', sans-serif;"
+                          ? "'Vazir1', sans-serif;"
                           : "Vazir1; sans-serif;"};
                       }
                       blockquote {
