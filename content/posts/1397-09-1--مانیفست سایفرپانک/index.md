@@ -1,6 +1,7 @@
 ---
 title: مانیفست سایفرپانک!
-category: "تمرکززدایی"
+category: دنیای غیرمتمرکز
+tag: غیرمتمرکزیت
 cover: cypherpunk.jpg
 author: نوید گل‌ پور
 ---

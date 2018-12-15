@@ -1,6 +1,6 @@
 ---
 title: تاریخ «بلاکچین» به زبان آدمیزاد!
-category: "تمرکززدایی"
+category: دنیای غیرمتمرکز
 cover: blockChain-history.jpg
 author: نوید گل‌ پور
 ---
