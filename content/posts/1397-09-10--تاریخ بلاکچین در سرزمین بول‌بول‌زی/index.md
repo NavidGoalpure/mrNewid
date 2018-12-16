@@ -1,5 +1,5 @@
 ---
-title: تاریخ «بلاکچین» در سرزمین «بول‌بول‌زی»!
+title: بلاکچین به زبان آدمیزاد!
 category: بول بول زی
 cover: blockChain-history.jpg
 author: نوید گل‌ پور

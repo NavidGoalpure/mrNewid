@@ -15,7 +15,7 @@ const Hero = props => {
         <div className="spaceBlank" />
         <div className="lasvegas">
           <h1 className="languageEn ">
-            <span>Web3</span> is comming... <br />
+            <span>‌Blockchain</span> is comming... <br />
           </h1>
           <h1 className="languageFa">
             تو را من
