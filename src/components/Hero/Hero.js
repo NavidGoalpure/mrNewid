@@ -12,14 +12,14 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <div className="spaceBlank">lkj</div>
+        <div className="spaceBlank" />
         <div className="lasvegas">
           <h1 className="languageEn ">
             <span>Web3</span> is comming... <br />
           </h1>
           <h1 className="languageFa">
             تو را من
-            <spam className="blink2">&#8239;جسم&#8239;</spam>
+            <spam className="blink2">&#8239;چشم&#8239;</spam>
             در راهم
           </h1>
         </div>
