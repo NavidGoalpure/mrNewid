@@ -12,12 +12,11 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <span className="spaceBlank" />
+        <div className="spaceBlank">lkj</div>
         <div className="lasvegas">
           <h1 className="languageEn ">
             <span>Web3</span> is comming... <br />
           </h1>
-          <br />
           <h1 className="languageFa">
             تو را من
             <spam className="blink2">&#8239;چشم&#8239;</spam>
@@ -35,10 +34,11 @@ const Hero = props => {
         @import url("https://fonts.googleapis.com/css?family=Lalezar");
         .hero {
           display: flex;
+          justify-content: space-between;
           flex-flow: column nowrap;
-          justify-content: center;
-          direction: ltr;
           align-items: center;
+
+          direction: ltr;
           background: ${theme.hero.background};
           background-image: url(${backgrounds.mobile});
           background-size: cover;
@@ -47,10 +47,9 @@ const Hero = props => {
           height: 100px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
+          padding-bottom: 0;
         }
         .arrow {
-          position: absolute;
-          bottom: 1em;
           border: none;
           color: rgba(255, 255, 255, 0.6);
           text-align: center;
@@ -61,12 +60,14 @@ const Hero = props => {
             animation: none;
           }
         }
-        .spaceblank {
-          height: 33%;
+        .spaceBlank {
+          background: yellow;
         }
         .lasvegas {
-          display: contents;
-          height: 33%;
+          dispaly: flex;
+          align-items: center;
+          justify-content: center;
+          width: -webkit-fill-available;
           font-size: 1em;
           border: none;
           color: rgba(255, 255, 255, 0.6);
@@ -164,7 +165,6 @@ const Hero = props => {
           }
 
           h1 {
-            max-width: 90%;
             font-size: ${`calc(${theme.hero.h1.size} * 1.3)`};
           }
         }
@@ -175,7 +175,6 @@ const Hero = props => {
           }
 
           h1 {
-            max-width: 80%;
             font-size: ${`calc(${theme.hero.h1.size} * 1.5)`};
           }
         }
