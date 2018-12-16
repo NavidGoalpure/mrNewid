@@ -12,6 +12,7 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
+        <span className="spaceBlank" />
         <div className="lasvegas">
           <h1 className="languageEn ">
             <span>Web3</span> is comming... <br />
@@ -60,8 +61,12 @@ const Hero = props => {
             animation: none;
           }
         }
+        .spaceblank {
+          height: 33%;
+        }
         .lasvegas {
           display: contents;
+          height: 33%;
           font-size: 1em;
           border: none;
           color: rgba(255, 255, 255, 0.6);
