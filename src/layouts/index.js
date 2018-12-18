@@ -215,7 +215,7 @@ class Layout extends React.Component {
                         margin: 0;
                       }
                       strong {
-                        font-weight: ${this.state.font600loaded ? 600 : 400};
+                        font-weight: bolder;
                       }
                       a {
                         text-decoration: none;
