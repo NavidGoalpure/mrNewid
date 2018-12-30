@@ -3,6 +3,7 @@ title: «سهم» مارو دزدیدین، دارین باهاش پز می‌د
 category: دنیای غیرمتمرکز
 cover: platformThief.jpg
 author: نوید گل پور
+reference: https://blog.bloock.ir
 ---
 
 ![پلتفرم‌ها ثروت و قدرت ناعادلانه ای رو به صاحبان اصلی سرمایه‌ها اعطا می‌کنن](platformThief.jpg)

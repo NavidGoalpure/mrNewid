@@ -9,6 +9,7 @@ const Seo = props => {
   const postDescription = ((data || {}).frontmatter || {}).description;
   const postCover = ((data || {}).frontmatter || {}).cover;
   const postSlug = ((data || {}).fields || {}).slug;
+  const postReference = ((data || {}).frontmatter || {}).reference;
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
@@ -24,6 +25,8 @@ const Seo = props => {
     >
       {/* General tags */}
       <title>{title}</title>
+      {/* important in seo. say to google this article not duplicate */}
+      {postReference && <link href={postReference + postSlug} rel="canonical" />}
       <meta name="description" content={description} />
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />

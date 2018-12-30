@@ -3,6 +3,7 @@ title: آموزش بلاکچین با کارت‌های پوکمون
 category: بلاکچین
 cover: pokemunCard.jpg
 author: نوید گل پور
+reference: https://blog.bloock.ir
 ---
 
 ![کارت های پوکمون](./pokemunCard.jpg)

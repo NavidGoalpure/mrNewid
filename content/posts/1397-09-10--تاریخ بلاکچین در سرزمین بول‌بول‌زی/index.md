@@ -3,6 +3,7 @@ title: تاریخ بلاکچین به زبان آدمیزاد!
 category: بول بول زی
 cover: blockChain-history.jpg
 author: نوید گل‌ پور
+reference: https://blog.bloock.ir
 ---
 
 ![تاریخ بلاکچین در سرزمین بول بول زی!](blockChain-history.jpg)
