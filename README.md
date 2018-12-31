@@ -49,6 +49,7 @@ The original version of the starter is preserved as the branch `gatsby-v1`.
 - **Prettier** code styling
 - Webpack `BundleAnalyzerPlugin`
 - **Gravatar** image (optional) instead local Avatar/Logo image
+- use **reference** in meta data for articles for dont duplicate in content (suitble for seo)
 
 ## Prerequisites
 
