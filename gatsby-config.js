@@ -66,6 +66,16 @@ module.exports = {
         chunkSize: 10000 // default: 1000
       }
     },
+    // گرفتن کامنت ها توسط staticman
+    // `gatsby-transformer-yaml`,
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     path: `${__dirname}/_data/comments`,
+    //     name: "comments"
+    //   }
+    // },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

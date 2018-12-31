@@ -16,6 +16,8 @@ import { ThemeContext } from "../../layouts";
 import { FaTelegram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Contact = props => {
+  console.log("props in contacts=", props);
+
   const { getFieldDecorator } = props.form;
 
   function encode(data) {
