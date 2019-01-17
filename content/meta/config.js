@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "MrNewID", // <title>
-  shortSiteTitle: "Blockchain is coming...", // <title> ending for posts and pages
+  shortSiteTitle: "از وبلاگ نوید گل‌پور", // <title> ending for posts and pages
   siteDescription: "مقالاتی درباره بلاکچین و موضوعات وابسته",
   siteUrl: "https://MrNewId.ir",
   // pathPrefix: "",
