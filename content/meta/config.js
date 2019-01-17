@@ -4,7 +4,7 @@ module.exports = {
   siteDescription: "مقالاتی درباره بلاکچین و موضوعات وابسته",
   siteUrl: "https://MrNewId.ir",
   // pathPrefix: "",
-  siteImage: "preview.jpg",
+  siteImage: "avatar.jpg",
   siteLanguage: "fa",
 
   /* author */
