@@ -211,6 +211,10 @@ class Layout extends React.Component {
                       h1 {
                         letter-spacing: -0.04em;
                       }
+                      h2,
+                      h3 {
+                        font-weight: bold;
+                      }
                       p {
                         margin: 0;
                       }
