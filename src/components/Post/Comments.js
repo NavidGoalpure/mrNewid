@@ -19,8 +19,6 @@ import FacebookProvider, { Comments as FBComments } from "react-facebook";
 import config from "../../../content/meta/config";
 
 const StaticComments = props => {
-  console.log("props in comments=", props);
-
   const { getFieldDecorator } = props.form;
 
   function encode(data) {
