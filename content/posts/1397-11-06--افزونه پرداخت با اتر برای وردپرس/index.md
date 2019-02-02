@@ -24,7 +24,7 @@ author: نوید گل‌ پور
 [آخرین پستشون](https://virgool.io/@jeeb/درگاه-پرداخت-بیت-کوین-برای-وردپرس-ووکامرس-fqjlhgvtuvlj)
 تو ویرگول به دو هفته قبل برمیگرده نظرم عوض شد. به هرحال اگه بچه‌های جیب بخوان به قول مامانم همین چند تا مشتری «کل و کورشون» رو نگه دارن، بهتره وضعیت پشتیبانیشون رو بهبود بدن.
 
-##Bitpay
+##bitpay
 ![تصویر سایت بیت‌پی](bitpay.png)
 [BitPay](https://bitpay.com/)
 افزونه دیگه ای بود که امتحان کردم. این
@@ -33,6 +33,7 @@ author: نوید گل‌ پور
 نکته اینجاست که جعل کردن این همه اطلاعات در شرایطی که دامین وبسایتتون «ir.» هست چندان معقول به نظر نمیاد!
 
 ##Pay With Ether
+
 ![تصویر سایت pay with ether](payWithEther1.png)
 با پیدا کردن این
 [سایت](https://www.paywithether.com/)
@@ -41,10 +42,11 @@ author: نوید گل‌ پور
 به نظر می‌یومد بالاخره تونستم ستاره اقبال رو در آغوش بکشم! اما اینجا هم به مشکل خوردم. بعد از نصب افزونه و تنظیماتش با یک ارر مواجه شدم که با سرچ کردن هم نتونستم حلش کنم. توی بخش ساپورت افزونه مشکلم رو مطرح کردم ولی تا همین امروز جوابی به سؤالم ندادن. در نتیجه به سراغ افزونه بعدی رفتم.
 
 (خطر اسپویل: تو افزونه بعدی هم به همین مشکل برمی‌خورم اما بخش ساپورت اون‌ها راهنماییم کرد و مشکل حل شد. جواب راه حل رو خودم تو
-(فروم)[https://wordpress.org/support/topic/unable-to-provide-an-order-value-in-eth-at-this-time-please-contact-support-2/]
+[فروم](https://wordpress.org/support/topic/unable-to-provide-an-order-value-in-eth-at-this-time-please-contact-support-2/)
 این‌ها نوشتم تا دولوپرهای بعدی مشکلشون حل شه).
 
 ##Ether and ERC20 tokens WooCommerce Payment Gateway
+
 ![تصویر سایت این افزونه](payWithEther2.png)
 سایت
 [Ethereumico](https://ethereumico.io/)
