@@ -158,6 +158,7 @@ const Item = props => {
           }
 
           h1 {
+            line-height: normal;
             font-size: ${`calc(${theme.blog.h1.size} * 1.2)`};
             padding: ${`calc(${theme.space.default} * 1.5) ${theme.space.default} 0`};
             transition: all 0.5s;
