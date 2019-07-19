@@ -44,6 +44,7 @@ const Meta = props => {
             display: flex;
             text-transform: uppercase;
             margin: ${theme.space.xs} ${theme.space.s} ${theme.space.xs} 0;
+            direction: ltr;
           }
         }
         @from-width tablet {
