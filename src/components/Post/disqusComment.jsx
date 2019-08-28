@@ -1,19 +1,27 @@
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import React from "react";
+import PropTypes from "prop-types";
 
-const PostTemplate = () => {
+import { Disqus, CommentCount } from "gatsby-plugin-disqus";
+import { siteUrl } from "../../../content/meta/config";
+
+const DisqusComment = props => {
   let disqusConfig = {
-    url: `${config.siteUrl+location.pathname}`,
-    identifier: post.id,
-    title: post.title,
-  }
+    url: `${siteUrl + props.slug}`,
+    identifier: props.slug,
+    title: props.title
+  };
   return (
-    <>
-      <h1>{post.title}</h1>
-      <CommentCount config={disqusConfig} placeholder={'...'} />
-      /* Post Contents */
-      <Disqus config={disqusConfig} />
-    </>
-  )
-}
+    <div>
+      <CommentCount config={disqusConfig} placeholder={"..."} />
 
-export default DisqusComment
+      <Disqus config={disqusConfig} />
+    </div>
+  );
+};
+
+export default DisqusComment;
+
+DisqusComment.propTypes = {
+  slug: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired
+};

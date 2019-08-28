@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "prismjs/themes/prism-okaidia.css";
+// import { DiscussionEmbed } from "disqus-react";
+import DisqusComment from "./disqusComment";
 
 import asyncComponent from "../AsyncComponent";
 import Headline from "../Article/Headline";
 import Bodytext from "../Article/Bodytext";
 import Meta from "./Meta";
 import Author from "./Author";
-import Comments from "./CommentBox";
 import NextPrev from "./NextPrev";
 
 const Share = asyncComponent(() =>
@@ -27,12 +28,10 @@ const Post = props => {
       frontmatter: { title, author, category }
     },
     authornote,
-    facebook,
     next: nextPost,
     prev: prevPost,
     theme
   } = props;
-
   return (
     <React.Fragment>
       <header>
@@ -44,7 +43,7 @@ const Post = props => {
         <Share post={post} theme={theme} />
         <Author note={authornote} theme={theme} />
         <NextPrev next={nextPost} prev={prevPost} theme={theme} />
-        <Comments />
+        <DisqusComment slug={props.post.fields.slug} title={props.post.frontmatter.title} />
       </footer>
     </React.Fragment>
   );
