@@ -76,6 +76,18 @@ module.exports = {
     //     name: "comments"
     //   }
     // },
+    // {
+    //   resolve: `gatsby-plugin-disqus`,
+    //   options: {
+    //     shortname: `Mrnewid.ir`
+    //   }
+    // },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `Mrnewid.ir`
+      }
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
